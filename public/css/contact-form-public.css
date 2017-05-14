@@ -1,0 +1,21 @@
+/*Contact form CSS*/
+.contact_form_wrap{max-width: 1000px; padding-left: 3em; padding-right: 3em; margin-left: auto; margin-right: auto;}
+.contact_form_row, .contact_form_submit{clear: both; width: 100%; display: block;}
+.contact_form_col1, .contact_form_col2{float:left; width: 48%; }
+.contact_form_col1{ margin-right: 2%;}
+.contact_form_col2{ margin-left: 2%;}
+
+.contact_form_col1 input{ margin-bottom: 40px; height: 52px;}
+.contact_form_submit{text-align: center;}
+.input_name, .input_email{position: relative;}
+label.error{position: absolute; top: 50px; color: #ff0000; font-weight: normal;}
+.contact_form_message h4{text-align: center;}
+.error{color: #FF0000;}
+.no-error{color: #008000;}
+
+@media only screen and (max-width: 767px) {
+    .contact_form_col1, .contact_form_col2{ width: 100%; margin:0; }
+    .contact_form_col1 input{ margin-bottom: 30px; }
+    label.error{font-size: 13px;}
+    .contact_form_col2, .contact_form_submit{margin-bottom: 30px;}
+}
